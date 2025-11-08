@@ -17,3 +17,7 @@ Robotic Calibration and Error Compensation — 2-link planar arm
 1. The RMS error for parameters was reduced by 98.3% after their optimization.
 2. The RMS error for end effector position was reduced by 97.2% after optimizing the parameters.
 3. The measured pre-calibration, measured post-calibration and predicted positions of the end effector for all the different sets of joint angle pairs are shown in the graph below:
+![End-effector position](https://github.com/jeetacharya/robotic-calibration-error-compensation/blob/6489753581e79f134b83b130ea6423caf43cce74/End-effector%20position.png)
+4. The measured post-calibration position of the end effector is more nearer to the predicted position than the measured pre-calibration position proving the effectiveness of the optimization.
+5. The error distribution is shown in the form of a histogram below:
+![Error histigram]()
