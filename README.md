@@ -20,7 +20,7 @@ Robotic Calibration and Error Compensation — 2-link planar arm
 ![End-effector position](https://github.com/jeetacharya/robotic-calibration-error-compensation/blob/6489753581e79f134b83b130ea6423caf43cce74/End-effector%20position.png)
 4. The measured post-calibration position of the end effector is more nearer to the predicted position than the measured pre-calibration position proving the effectiveness of the optimization.
 5. The error distribution is shown in the form of a histogram below:
-![Error histigram](https://github.com/jeetacharya/robotic-calibration-error-compensation/blob/7ca00818bd5814fe71439784b24b65665b64bf38/Error%20histogram.png)
+![Error histogram](https://github.com/jeetacharya/robotic-calibration-error-compensation/blob/7ca00818bd5814fe71439784b24b65665b64bf38/Error%20histogram.png)
 6. The histogram shows that most errors are closer to 0 m after the optimization process. The frequency of the bars of the histogram decreases as the error increases proving the effectiveness of the optimization of parameters.
 7. The measured position of the end-effector progressively reaches its predicted position as the calibration advances, and in the process, compensates for the sensor errors too.
 8. As the number of sets of joint angle configurations increases, the accuracy of the optimized parameters increases and the RMS error post-calibration decreases because there is a bigger range of end-effector configurations that are included in the residuals function.
